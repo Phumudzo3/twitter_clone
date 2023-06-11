@@ -1,0 +1,99 @@
+*{padding: 0;
+    margin: 0;}
+body{
+    background-color: #FFFFFF;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-seri;
+    font-size: 22px;
+    font-weight: 350;
+}
+.header{
+    display: flex;justify-content: space-between;
+}
+.nav-sidebar{
+    
+    width: 23vw;
+    border-right: 1px solid grey;
+    margin-left:55px;
+    
+}
+.nav{
+    display:block;   
+    margin-top: 10px;
+    margin-right: 6px;
+    
+}
+.nav img{
+margin-left: 10px;
+}
+
+   .material-icons{
+margin-right: 15px;
+   }
+   .nav ul{
+    text-align: center;
+    width: 58%;
+    
+   }
+.nav ul li{ 
+    display: flex;
+    list-style: none;
+margin-top: 19px;
+
+
+
+}
+.nav-sidebar span{
+    font-size: 30px;
+
+margin-left: 5px;
+}
+.tweet-button{
+    border: 0 solid black;
+    box-sizing: border-box;
+    border-radius: 30px; padding: 10px 90px;
+    background: #1a8cd8;margin-top: 11px
+}
+.main-nav{
+    width: 38vw;
+    border-right: 1px solid rgb(5, 3, 3);
+}
+.login-nav span{
+    width: 70px;
+}
+.nav ul li:hover{
+    background-color: #c1c1c1;
+    border-radius: 50px;
+    height: 50px;align-items: center;
+   width: 100%;
+}
+.home{
+    font-weight: 500;
+}
+.login-nav{
+    display:inline-flex;flex-direction: row ;
+margin-top: 22px;
+}
+.login-nav span{
+    font-size: 18px;
+}
+.logo{
+font-size: 50px;
+
+}
+.username{
+   display: flex; 
+   flex-direction: column;
+ position: relative;right:15px;
+}
+.username span{
+    font-size: 15px;
+}
+.bold{
+    font-weight: 500;
+}
+.login-nav:hover{
+    background-color: #c1c1c1;
+    border-radius: 50px;padding-right: 50px;
+    height: 60px;
+    align-items: center;
+}
