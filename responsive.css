@@ -1,0 +1,40 @@
+@media(max-width: 768px) and (min-width:480px){
+    
+.header{
+   display: block;justify-content: center;
+width:inherit;height: 400px;
+}
+.nav{
+    position: sticky;
+}
+.nav img{ margin-left: 270px;margin-top: 14px;}
+.nav ul{
+    display: none;}
+    .tweet-button,.home{display: none;}
+
+    .rightbar-nav,.username span{
+        display: none;
+        pointer-events: none;
+    }
+    
+    
+main-header {display: none;}
+.main-createtweet,.main-status-nav-box{
+        display: none;
+        
+        position: relative;bottom: 70px; right: 260px;}
+    .nav-sidebar{margin:0;padding:0;width: auto;height: 50px;
+    position:sticky;}
+.main-nav{width: auto;margin-top: 30px;
+
+}
+.profile-pic img{position: relative;bottom: 70px;right: 290px;}
+.profile-pic img:hover{padding: 0;}
+show-tweet p{color: black;
+    width: auto;
+}
+.main-header{
+    margin-bottom: 100px;
+}
+
+}
