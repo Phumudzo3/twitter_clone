@@ -1,14 +1,27 @@
-@media (max-width:768px) and (min-width:500px){
+@media and (max-width:1075px) {
 .nav ul li{font-size: 0px;
-    width:5vw;}
+    width:5vw;
+    padding: 0;margin: 0;
+    padding-top: 20px;
+}
+.material-icons{
+    font-size: 25px;
+    
+}
+.main-status-nav{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
 
     .nav-sidebar{
-        width: 13vw;
-       
-        overflow-y: scroll;
+        width: 15vw;
+        height: 87vw;
+      position: fied; 
+      
     }
-    .nav{width: 12vw;
-        position: relative;right: 48px;
+    .nav{width:5vw;
+        position: relative;left: 10px;
+       
     }
 .tweet-button{
     padding: 20px 20px;
@@ -31,16 +44,25 @@
     width:40%;
     
 }
+.profile-pic img{background-color: aqua;
+    position: relative;
+    right: 30px;
+}
 .main-status-nav .view{
     display: none;
 
 }
+.login-nav:hover{
+display: none;
+}
 
-.login-nav{
+.username span{
     display: none;
 }
 .main-nav{
-    width:100%;
+width: 59vw;
+    
+    
 }
 .main-header-nav{
 margin-top: 20px;
@@ -51,12 +73,103 @@ margin-top: 20px;
     text-align: center;
 }
 .rightbar-nav{
+    width: 30vw;
+    
+}
+
+}
+
+@media screen and (max-width:995px) {
+    .nav ul li{font-size: 0px;
+        width:5vw;
+        padding: 0;margin: 0;
+        padding-top: 20px;
+    }
+    .material-icons{
+        font-size: 25px;
+        
+    }
+    .main-status-nav{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    
+        .nav-sidebar{
+            width: fit-content;
+            height: 87vw;
+          position:relative; 
+          
+          
+        }
+        .nav{width:5vw;
+            position: relative;left: 10px;
+           
+        }
+    .tweet-button{
+        padding: 20px 20px;
+        border-radius: 50px;
+        font-size: 0;
+    }
+    .main-status-nav .box{
+        display: none;
+    
+    }
+    .main-status-button{
+        margin-right: 20px;
+       
+    }
+   
+    .tweet-button-2{
+        width:40%;
+        
+    }
+    .profile-pic img{background-color: aqua;
+        position: relative;
+        right: 30px;
+    }
+    .main-status-nav .view{
+        display: none;
+    
+    }
+    .login-nav:hover{
     display: none;
+    }
+    
+    .username span{
+        display: none;
+    }
+    .main-nav{
+    width: 100%;
+        
+        
+    }
+    .main-header-nav{
+    margin-top: 20px;
+    }
+    .nav ul li:hover{
+        border-radius: 50px;
+        
+        text-align: center;
+    }
+    .rightbar-nav{
+       display: none;
+        background: pink;
+    }
+    .pic-tweet{
+ margin-right: 100px;
+    }
+
+    .pic-tweet img{
+        width: 220px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    @media screen and (max-width:499px) {
+
+        .nav-sidebar{
+            display: none;
+        }
 }
-
-}
-
-
 
 
 

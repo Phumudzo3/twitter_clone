@@ -17,8 +17,6 @@ width:inherit;height: 400px;
         pointer-events: none;
     }
     
-    
-main-header {display: none;}
 .main-createtweet,.main-status-nav-box{
         display: none;
         
@@ -30,9 +28,7 @@ main-header {display: none;}
 }
 .profile-pic img{position: relative;bottom: 70px;right: 290px;}
 .profile-pic img:hover{padding: 0;}
-show-tweet p{color: black;
-    width: auto;
-}
+
 .main-header{
     margin-bottom: 100px;
 }

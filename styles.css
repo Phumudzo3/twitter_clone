@@ -1,5 +1,13 @@
-*{padding: 0;
-    margin: 0;}
+*{
+    box-sizing: border-box;
+     padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    }
+    
+    html,body{
+        overflow-x: hidden;
+    }
 body{
     background-color: #FFFFFF;
     font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
@@ -15,7 +23,7 @@ body{
 
 .nav-sidebar{
     
-    width:23.6% ;
+    width:26vw ;
     border-right: 1px solid #eff3f4;
     
    
@@ -24,12 +32,13 @@ body{
 .nav{
     display:block;   
     margin-top: 10px;
-    margin-right: 6px;
-    margin-left:55px;
+    
+    margin-left:30px;
     position: fixed;
 }
 .nav img{
 margin-left: 10px;
+;border-radius: 20px;
 }
 
    .material-icons{
@@ -38,13 +47,13 @@ margin-right: 15px;
    .nav ul{
     text-align: center;
     width: 58%;
-    
+    text-align: center;
    }
 .nav ul li{ 
     display: flex;
-    list-style: none;
-margin-top: 19px;
-padding: 5px;
+  margin-top: 19px;
+  
+
 
 
 }
@@ -70,11 +79,13 @@ margin-left: 5px;
     background-color: #c1c1c1;
     border-radius: 50px;
     display:flex;
+    
   
 }
+
 .nav img:hover{
     background-color: #c1c1c1;
-    border-radius: 20px; padding: 20px;
+    
     opacity: 0.5;
 }
 .show-tweet:hover{
@@ -89,6 +100,7 @@ margin-left: 5px;
 .login-nav{
     display:flex;padding-left: 0px ;
 margin-top: 22px;
+
 }
 .login-nav span{
     font-size: 18px;
@@ -114,15 +126,18 @@ font-size: 50px;
 .bold{
     font-weight: 500;
 }
-.login-nav:hover{
+.login-nav:hover{border-radius: 20px;
     background-color: #c1c1c1;
-    border-radius: 50px;padding-right: 50px;
-    height: 60px;
+    padding: 10px 20px; 
+}
+.profile-pic img:hover{
+    background-color: #c1c1c1;
+    
     align-items: center;
 }
 /*main*/ 
 .main-nav{
-    width:45.1%;
+    width:52%;
     border-right: 1px solid#eff3f4;;
    
 }
@@ -202,6 +217,17 @@ margin-top:5px;
    width: 100%;
    
 }
+.main-status-nav .material-icons{
+    border-radius: 50px;
+   
+}
+.main-status-nav i:hover{
+    border-radius: 50px;
+   background-color: #1d9bf0;
+   opacity: 0.5;
+   cursor: pointer;
+}
+
 .main-status-nav i{
     display: inline-block;
    
@@ -256,8 +282,16 @@ height:auto;
 .group2{
     margin-left: 10px;
 }
-.pic-tweet{display: flex;margin-top: 20px;}
-.pic-tweet img{width: 260px;padding-left: 2px;border-radius: 30px;}
+.pic-tweet{display: flex;
+    margin-top: 20px;
+
+
+}
+.pic-tweet img{width: 260px;
+    padding-left: 2px;
+    border-radius: 30px;
+    width: 280px;height: 300px;
+}
 .profile span, p{
     font-size: 15px;
 }
@@ -319,34 +353,38 @@ margin: 12px 80px 10px 0px ;
 }
 .nav-align{
     margin-left: 27px;
+    width:20%;
+    
 }
 
 .rightbar-nav{
-width:32%;
+width:30%;
 
 flex-direction: column;
 
 align-items: center;
 }
 .serachbar{
-    width: 25vw;
+    width: 23vw;
    margin-top: 10px;
    
 }
 .serachbar input{
-    padding: 10px 77px;
-    ;border-radius: 40px;
+    border-radius: 40px;
    background: #eff3f4;
 border:none;
 }
 .serachbar .material-icons{
     position: absolute;
-    top: 22px;
+    top: 25px;
     font-size: 25px;}
-.serachbar input{font-size: 15px;}
+.serachbar input{
+    padding: 10px 35px;
+}
 
 .trending{
-width: 25vw;height: 100vh;
+width: 23vw;
+height: 100vh;
     background: #eff3f4;
     margin-top: 18px;
     border-radius: 10px;
@@ -364,8 +402,14 @@ width: 25vw;height: 100vh;
 trend1{
     padding: 0px;
 }
+
+.main-status-nav .material-icons :hover{
+    background-color: #c1c1c1;
+    
+
+}
 .getverified-box{
-    width: 25vw;
+    width: 23vw;
     height: 18vh;
     background: #eff3f4;
     margin-top: 18px;
@@ -418,7 +462,7 @@ rightbar-nav{
 }
 .follow{
    
-        width: 25vw;
+        width: 23vw;
         height: 18vh;
         background: #eff3f4;
         margin-top: 18px;
