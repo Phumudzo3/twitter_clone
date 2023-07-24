@@ -5,8 +5,9 @@
     text-decoration: none;
     }
     
-    html,body{
+    body{
         overflow-x: hidden;
+       
     }
 body{
     background-color: #FFFFFF;
@@ -471,10 +472,11 @@ rightbar-nav{
 }
 
 .reaction{width: 6vw;height: 5vh;
-    margin-left: 130px;
+    margin-left: 110px;
     background: black;
     color: #FFFFFF;font-size: 15px;
-    border-radius: 40px;border: none;
+    border-radius: 40px;
+    border: none;
     margin-top: 30px;
 }
 .username1{
